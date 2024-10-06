@@ -3,6 +3,7 @@
 - pointcloud_1686138334837467970 -> un coche
 - carretera -> GT
 - pointclouds/ -> varios frames de vehiculos
+- Python 3.11.0
 
 ## TODO
 
