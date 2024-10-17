@@ -1,11 +1,24 @@
 # Práctica LiDAR
 
-- pointcloud_1686138334837467970 -> un coche
-- carretera -> GT
-- pointclouds/ -> varios frames de vehiculos
-- Python 3.11.0
+## Integrantes 
+* Alejandro Cortijo Benito
+* Alejandro García Mota
 
-## TODO
+## Archivos principales
 
-- Mergear DBSAC y Kmeans outputs en un solo jupyter documentado [x]
-- Mejorar el tracking (hay que distinguir a través de los centroide de los clusters si el vehiculo de t es igual al de t+1, creo xd)
+- **LiDAR_Clustering.ipynb**: Cuaderno con la primera parte de la práctica resuelta y documentada.
+- **LiDAR_Clustering_Fotos.ipynb**: Cuaderno con la primera parte de la práctica resuelta y documentada, similar al anterior pero con los outputs de las celdas disponibles.
+- outputs_clustering/: Resultados de *LiDAR_Clustering_Fotos.ipynb*.
+- **LiDAR_Clustering_tracking.ipynb**: Cuaderno con la segunda parte de la práctica resuelta y documentada.
+- frames/: Outputs tracking
+> Hemos generado un .gif y un .mp4 con los resultados obtenidos en **LiDAR_Clustering_tracking.ipynb** (tracking.gif y tracking.mp4)
+
+## Archivos secundarios
+
+- Practica 0: Pruebas DBSCAN / Kmeans
+- data/: Conjunto de datos utilizado para la realización de la práctica
+- LiDAR_Clustering DBSCAN.ipynb: Cuaderno con resultados de DBSCAN
+- LiDAR_Clustering Kmeans.ipynb: Cuaderno con resultados de KMeans
+
+---
+> Cabe destacar que si se desea reproducir algunos de los cuadernos, dejamos disponible el **requirements.txt**. Estas librerías han sido usadas con **Python 3.11**.
