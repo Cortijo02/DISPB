@@ -21,4 +21,4 @@
 - LiDAR_Clustering Kmeans.ipynb: Cuaderno con resultados de KMeans
 
 ---
-> Cabe destacar que si se desea reproducir algunos de los cuadernos, dejamos disponible el **requirements.txt**. Estas librerías han sido usadas con **Python 3.11**.
+> Cabe destacar que si se desea reproducir algunos de los cuadernos, hemos dejado disponible el **requirements.txt**. Estas librerías han sido usadas con una base de **Python 3.11**.
